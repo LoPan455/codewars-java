@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eefa6c1-dae5-4921-bdc9-78577e135a3b" name="Default Changelist" comment="" />
+    <list default="true" id="2eefa6c1-dae5-4921-bdc9-78577e135a3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/tjohander/OrdersSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/tjohander/OrdersSummaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UIY3Wo2DEkuPjYfqhTwn4Kj5R3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -94,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CountingDuplicatesTest.failedTest">
+  <component name="RunManager" selected="Gradle.OrdersSummaryTest.test1">
     <configuration name="BitCountingTest.testGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,23 +163,24 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="codewars-java [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrdersSummaryTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;io.tjohander.OrdersSummaryTest.test1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="buildDependents" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="codewars-java [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -194,19 +203,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.codewars-java [buildDependents]" />
       <item itemvalue="Gradle.codewars-java [dependencies]" />
       <item itemvalue="Gradle.BitCountingTest.testGame" />
       <item itemvalue="Gradle.CountingDuplicatesTest" />
       <item itemvalue="Gradle.CountingDuplicatesTest.failedTest" />
+      <item itemvalue="Gradle.OrdersSummaryTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrdersSummaryTest.test1" />
         <item itemvalue="Gradle.CountingDuplicatesTest.failedTest" />
         <item itemvalue="Gradle.CountingDuplicatesTest" />
         <item itemvalue="Gradle.BitCountingTest.testGame" />
         <item itemvalue="Gradle.codewars-java [dependencies]" />
-        <item itemvalue="Gradle.codewars-java [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -220,12 +229,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575045377113</updated>
-      <workItem from="1575045378632" duration="8828000" />
+      <workItem from="1575045378632" duration="25596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,13 +257,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/io/tjohander/CountingDuplicates.java</url>
-          <line>41</line>
+          <line>39</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/io/tjohander/CountingDuplicates.java</url>
-          <line>24</line>
+          <line>22</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/tjohander/OrdersSummary.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
