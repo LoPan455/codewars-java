@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eefa6c1-dae5-4921-bdc9-78577e135a3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/tjohander/OrdersSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/tjohander/OrdersSummaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/tjohander/FindOutlier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/tjohander/FindOutlierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.OrdersSummaryTest.test1">
+  <component name="RunManager" selected="Gradle.FindOutlierTest.testExample">
     <configuration name="BitCountingTest.testGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,6 +164,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FindOutlierTest.testExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.tjohander.FindOutlierTest.testExample&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="OrdersSummaryTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,39 +204,20 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="codewars-java [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Gradle.codewars-java [dependencies]" />
       <item itemvalue="Gradle.BitCountingTest.testGame" />
       <item itemvalue="Gradle.CountingDuplicatesTest" />
       <item itemvalue="Gradle.CountingDuplicatesTest.failedTest" />
       <item itemvalue="Gradle.OrdersSummaryTest.test1" />
+      <item itemvalue="Gradle.FindOutlierTest.testExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindOutlierTest.testExample" />
         <item itemvalue="Gradle.OrdersSummaryTest.test1" />
         <item itemvalue="Gradle.CountingDuplicatesTest.failedTest" />
         <item itemvalue="Gradle.CountingDuplicatesTest" />
         <item itemvalue="Gradle.BitCountingTest.testGame" />
-        <item itemvalue="Gradle.codewars-java [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +231,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575045377113</updated>
-      <workItem from="1575045378632" duration="25596000" />
+      <workItem from="1575045378632" duration="32081000" />
+      <workItem from="1575408820101" duration="1536000" />
     </task>
     <servers />
   </component>
@@ -241,7 +244,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -269,6 +274,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/io/tjohander/OrdersSummary.java</url>
           <line>37</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/tjohander/FindOutlier.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
